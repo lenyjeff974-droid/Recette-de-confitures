@@ -15,6 +15,7 @@ body {
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid #e0cfc0;
+  color: rgba(28, 24, 24, 0.768);
 }
 
 .site-header h1 {
@@ -28,7 +29,7 @@ body {
 }
 
 nav a {
-  color: #2d4a2d;
+  color: #1e1e22;
   text-decoration: none;
   margin: 0 6px;
 }
