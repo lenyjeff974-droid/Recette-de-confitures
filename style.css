@@ -1,0 +1,89 @@
+/* style.css */
+
+/* style.css - simple et lisible pour Roger */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background: #fffaf0; /* fond doux */
+  color: #222;
+}
+
+.site-header {
+  background: #f7e6d6;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #e0cfc0;
+}
+
+.site-header h1 {
+  margin: 0 0 6px 0;
+  font-size: 28px;
+}
+
+.site-header .tagline {
+  margin: 0 0 10px 0;
+  font-style: italic;
+}
+
+nav a {
+  color: #2d4a2d;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 12px;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero {
+  max-width: 320px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dernieres-recettes ul {
+  padding-left: 20px;
+}
+
+.recette {
+  margin: 20px 0;
+  padding: 12px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.recette-image {
+  max-width: 420px;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+footer {
+  background: #f7e6d6;
+  padding: 12px;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #e0cfc0;
+}
+
+/* Simple responsive : image s'adapte aux petits écrans */
+@media (max-width: 600px) {
+  .hero, .recette-image {
+    max-width: 100%;
+  }
+}
